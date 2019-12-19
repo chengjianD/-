@@ -1,0 +1,57 @@
+@charset "utf-8";
+@media screen and (max-width:970px){
+	/******  foot-custorm start ******/
+	.foot-customer {
+		display:none;
+	}
+	/******  foot-custorm end ******/
+
+	/******  .foot-appraise start ******/
+	.outfoot{
+		display:none;
+	}
+	/******  .foot-appraise end ******/
+
+	/******  .foot-bottom start ******/
+	/******  bottomone start ******/
+	.bottom-one{
+		width:90%;
+		padding-top:10px;
+	}
+	.bottom-one .phone{
+		width:100%;
+		float:none;
+	}
+	.bottom-one .time{
+		width:100%;
+		float:none;
+		margin-top:50px;
+	}
+	.bottom-one .image{
+		width:100%;
+		text-align:right;
+		margin-top:50px;
+	}
+	.bottom-one .friendlink{
+		margin-bottom:25px;
+	}
+	/******  bottomone end ******/
+	/******  bottom-middle start ******/
+	.foot-bottom .bottom-middle ul.left1{
+		width:100%;	
+	}
+	.foot-bottom .bottom-middle ul.left1 li:not(:nth-child(1)){
+		font-size:16px;
+	}
+	.foot-bottom .bottom-middle ul.left1 li:last-child{
+		width:40%;
+		min-width:350px;
+		
+	}
+	.foot-bottom .bottom-middle ul:not(:first-child){
+		display:none;
+	}
+	/******  bottom-middle end ******/
+	/******  .foot-bottom end ******/
+
+}
